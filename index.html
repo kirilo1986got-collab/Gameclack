@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Game clack!">
+    <meta name="keywords" content="game clack, Game clock., game clack!, Game clack!">
+    <title>Game</title>
+    <style>
+        .q {
+    font-size: 60px;
+}
+
+.w {
+    font-size: 60px;
+    background-color: #A19D25;
+}
+
+.e {
+    font-size: 60px;
+    background-color: #DF6E00;
+}
+
+.r {
+    font-size: 60px;
+    background-color: #FF86F2;
+}
+
+.t {
+    font-size: 60px;
+    background-color: #6BFDFD;
+}
+
+.y {
+    font-size: 60px;
+    background-color: #00F4FF;
+}
+
+.u {
+    font-size: 60px;
+    background-color: #E800FF;
+}
+
+.i {
+    background-color: #D95968;
+    font-size: 60px;
+}
+ 
+.o {
+    background-color: #00FFF0;
+    font-size: 60px;
+}
+ 
+.p {
+    background-color: #0F4B3B;
+    font-size: 60px;
+    color: white;
+}
+
+.a {
+    background-color: #A19D70;
+    font-size: 60px;
+}
+
+.s {
+    background-color: #0D2C1B;
+    font-size: 60px;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <h1 id="g" onclick='text1()'>Game clack v 1.2</h1>
+    <span>
+    <button class="q" id="r" onclick='textmini()'>Click</button>
+    
+    <button class="w" id="e"   onclick='textmini1()'>Click</button>
+    
+    <button class="e" id="w" onclick='textmini2()'>Click</button>
+    
+    <button class="r" id="q" onclick='textmini3()'>Click</button>
+    
+    <button class="t" id="a" onclick='textmini4()'>Click</button>
+    
+    <button class="y" id="s" onclick='textmini5()'>Click</button>
+    
+    <button class="u" id="d" onclick='textmini6()'>Click</button>
+    
+    <button class="i" id="z" onclick='textmini7()'>Click</button>
+    
+    <button class="o" id="x" onclick='textmini8()'>Click</button>
+    
+    <button class="p" id="c" onclick='textmini9()'>Click</button>
+    
+    <button class="a" id="f" onclick='textmini10()'>Click</button>
+    
+    <button class="s" id="h" onclick='textmini11()'>Click</button>
+    </span>
+    <p>
+        <nav>
+            <a href="sys.html">Назад</a>
+           
+        </nav>
+        <u id="t" onclick='text()'>Crusys 1956-2026©</u>
+        
+    </p>
+    <script>
+        //Текст с мого решетками
+        function text() {
+            let t=document.getElementById("t");
+            t.textContent="#########";
+        }
+      
+      function text1() {
+          let h=document.getElementById("g");
+          h.textContent= "#########";
+      }
+        //текст мини
+        function textmini() {
+            let r=document.getElementById("r");
+            r.textContent="####";
+            }
+           
+            function textmini1()
+            {
+            let e=document.getElementById("e");
+            e.textContent="####";
+            }
+            
+            function textmini2()
+              {
+            let w=document.getElementById("w");
+            w.textContent="####";
+            }
+            
+            function textmini3()
+              {
+            let q=document.getElementById("q");
+            q.textContent="####";
+            }
+            
+            function textmini4()
+              {
+            let a=document.getElementById("a");
+            a.textContent="####";
+            }
+            
+            function textmini5()
+              {
+            let s=document.getElementById("s");
+            s.textContent="####";
+            }
+            
+            function textmini6()
+              {
+            let d=document.getElementById("d");
+            d.textContent="####";
+            }
+            
+            function textmini7()
+              {
+            let z=document.getElementById("z");
+            z.textContent="####";
+            }
+            
+            function textmini8()
+              {
+            let x=document.getElementById("x");
+            x.textContent="####";
+            }
+            
+            function textmini9()
+              {
+            let c=document.getElementById("c");
+            c.textContent="####";
+            }
+            
+            function textmini10() {
+            let f=document.getElementById("f");
+            f.textContent="####";
+            }
+        
+        function textmini11() {
+             let g=document.getElementById("h");
+            g.textContent="####";
+        }
+        alert("Game clack!");
+        alert("Обновление 1.2 Исправлен один  баг.")
+    </script>
+</body>
+</html>
